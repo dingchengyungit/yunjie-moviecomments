@@ -1,0 +1,11 @@
+<!--pages/profile/profile.wxml-->
+<text>这是一个关于云姐姐信息的页面哟。。。</text>
+<view></view>
+<open-data type="userAvatarUrl"></open-data>
+<open-data type="userGender" lang="zh_CN" ></open-data>
+<open-data type="userNickName"></open-data>
+
+<button open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onGotUserInfo">
+  获取用户信息
+</button>
+
